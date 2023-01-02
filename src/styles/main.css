@@ -1,0 +1,10 @@
+.flex.items-center.flex-shrink-0.text-black.mr-20 {
+	padding-top: 24px;
+}
+
+.product-index-view .product-block {
+	display: flex;
+}
+.product-block .product-details{
+	margin-left: 40px;
+}
