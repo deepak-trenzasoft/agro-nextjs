@@ -12,6 +12,7 @@
     "@svgr/cli": "^5.5.0",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
     "axios": "^0.21.4",
+    "bootstrap": "^5.2.3",
     "classnames": "^2.3.1",
     "dompurify": "^2.4.0",
     "lodash": "^4.17.21",
