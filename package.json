@@ -5,34 +5,32 @@
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "next start  -p $PORT",
+    "start": "next start",
     "svg": "svgr -d src/components/icons src/components/icons/svgs"
   },
   "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.11",
     "@svgr/cli": "^5.5.0",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
-    "axios": "^0.21.4",
+    "axios": "^0.21.1",
     "bootstrap": "^5.2.3",
     "classnames": "^2.3.1",
-    "dompurify": "^2.4.0",
+    "dompurify": "^2.3.1",
+    "jquery": "^3.6.3",
     "lodash": "^4.17.21",
-    "micro": "^9.4.1",
-    "next": "^12.3.0",
+    "next": "11.1.0",
     "popper.js": "^1.16.1",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-image-gallery": "^1.2.11",
-    "sass": "^1.54.9",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.38.0",
     "validator": "^13.7.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-import": "^14.1.0",
-    "postcss-preset-env": "^6.7.1",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
     "precss": "^4.0.0",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.7"
   }
 }
